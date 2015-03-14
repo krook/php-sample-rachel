@@ -1,0 +1,8 @@
+---
+applications:
+- name: php-sample-rachel
+  memory: 128M 
+  instances: 1
+  host: php-sample-rachel
+  buildpack: https://github.com/cloudfoundry/php-buildpack.git
+  path: .
